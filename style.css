@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    
+    display: flex;
+    border: solid 1px gray;
+    border-radius: 25px;
+    width: 600px;
+    height: 40px;
+}
+nav div:nth-child(1){
+    width: 70%;
+    
+}
+div input{
+    border-radius: 25px;
+    margin-left: 10px;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+
+nav div{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+i{ 
+    color: gray;
+    margin: 0px 10px;
+}
+
+i:hover{
+    cursor: pointer;
+    color: rgb(54, 54, 238);
+}
+nav i:nth-child(3){
+    margin-left: 10px;
+}
+img{
+    margin-top: 100px;
+    margin-left: 20%;
+}
